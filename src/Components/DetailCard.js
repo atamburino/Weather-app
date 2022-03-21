@@ -1,4 +1,3 @@
-
 import moment from 'moment';
 
 function DetailCard({weather_icon, data}) {

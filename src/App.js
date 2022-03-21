@@ -1,10 +1,7 @@
-import './App.css';
 import { useState } from "react";
-import DetailCard from "./Components/DetailCard";
-import Header from "./Components/Header";
-import SummaryCard from "./Components/SummaryCard";
-
-
+import DetailCard from "./components/DetailCard";
+import Header from "./components/Header";
+import SummaryCard from "./components/SummaryCard";
 function App() {
   const API_KEY = process.env.REACT_APP_API_KEY
 
@@ -48,7 +45,6 @@ function App() {
     const {latitude, longitude} = location.coords
     getWeather([latitude, longitude])
   }
-
 
   return (
     <div className="bg-gray-800 flex items-center justify-center w-screen h-screen py-10">
