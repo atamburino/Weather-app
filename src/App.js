@@ -1,12 +1,13 @@
 import logo from './logo.svg';
 import './App.css';
 import { useState } from "react";
-import DetailCard from "./components/DetailCard";
-import Header from "./components/Header";
-import SummaryCard from "./components/SummaryCard";
+import DetailCard from "./Components/DetailCard";
+import Header from "./Components/Header";
+import SummaryCard from "./Components/SummaryCard";
 
 
 function App() {
+  const API_KEY = process.env.REACT_APP_API_KEY
 
   const [noData, setNoData] = useState('No Data Yet')
   const [searchTerm, setSearchTerm] = useState('')
