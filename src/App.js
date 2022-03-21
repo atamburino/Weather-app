@@ -1,5 +1,10 @@
 import logo from './logo.svg';
 import './App.css';
+import { useState } from "react";
+import DetailCard from "./components/DetailCard";
+import Header from "./components/Header";
+import SummaryCard from "./components/SummaryCard";
+
 
 function App() {
 
