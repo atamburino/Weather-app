@@ -66,7 +66,7 @@ function App() {
             <hr className="h-1 bg-white w-1/4 rounded-full my-5" />
             <form noValidate onSubmit={handleSubmit} className="flex justify-center w-full">
               <input type="text" 
-                placeholder="Enter location" 
+                placeholder="Enter City or State" 
                 className="relative rounded-xl py-2 px-3 w-2/3 bg-gray-300 bg-opacity-60 text-white placeholder-gray-200"
                 onChange={handleChange} 
                 required />
