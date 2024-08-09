@@ -14,7 +14,7 @@ h1 {
 }
 .form-container {
   /* background: url('./assets/lake-background.jpg') no-repeat 50% 40% / cover; */
-  @apply bg-black;
+  @apply bg-gradient-to-r from-gray-900 via-gray-800 to-black;
   height: auto;
   @apply w-2/4 p-5 rounded-3xl;
 }
