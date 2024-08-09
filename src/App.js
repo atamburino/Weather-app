@@ -1,7 +1,7 @@
 import { useState } from "react";
-import Header from "./components/Header";
-import DetailCard from "./components/DetailCard";
-import SummaryCard from "./components/SummaryCard";
+import Header from "./Components/Header";
+import DetailCard from "./Components/DetailCard";
+import SummaryCard from "./Components/SummaryCard";
 
 function App() {
   const API_KEY = process.env.REACT_APP_API_KEY;
